@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@font-face {
+	/* Reference name */
+	font-family: 'RedditMono';
+	/* For multiple files use commas, ex: url(), url(), ... */
+	src: url('./assets/RedditMono-VariableFont_wght.ttf');
+    font-display: swap;
+}
+
+.tag {
+    pointer-events: none;
+}
