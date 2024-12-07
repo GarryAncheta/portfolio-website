@@ -12,7 +12,7 @@
 
 <a target="_target" href={link} class="group grid grid-cols-6 col-auto lg:card lg:card-hover lg:variant-soft lg:bg-transparent hover:variant-glass-primary dark:bg-transparent dark:hover:variant-glass-surface" aria-label="Experience">
     <header class="inline-block text-sm col-start-1 col-span-2 mt-4 justify-self-center lg:mt-3 lg:card-header">{ timeRange }</header>
-    <div class="col-start-3 col-span-4 lg:mt-2">
+    <div class="col-start-3 col-span-4 mt-1 lg:mt-2">
         <section class="p-4"> 
             <h1 class="text-md text-primary-500 dark:text-primary-300">
                 { bodyHeader }
