@@ -68,7 +68,7 @@
                 <LinkedText 
                     content={"Mixtape the Inu"}
                     ariaLabel={"Link for my puppy's Instagram"}
-                    link={"https://www.instagram.com/mixtapetheinu/"}
+                    link={"https://www.instagram.com/mixtapetheinu/profilecard/?igsh=dmFidDk4ZWlkZGJ5"}
                 />!
             </p>
         </div>
