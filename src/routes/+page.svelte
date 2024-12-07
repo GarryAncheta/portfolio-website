@@ -10,7 +10,7 @@
     const changeColor = () => {
 
         if( $modeCurrent ) {
-            return "#60d7ab";
+            return "#2db482";
         }
 
         return "#1d7655";
