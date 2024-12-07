@@ -31,7 +31,7 @@
     const projects : Array<any> = [
         {
             link: "https://www.ceias.nau.edu/capstone/projects/CS/2022/TruthSeeker/index.html",
-            image: "./src/assets/nobl.png",
+            image: "../src/assets/nobl.png",
             imageDescription: "NOBL Web Application Preview",
             bodyTitle: "NOBL",
             bodyContent: "Led a team of 4 in developing a high-performance data visualization platform as my Computer Science capstone project.  Successfully delivered a web application and API with sub-250 millisecond rendering of 50,000 data points using ECharts, providing a critical reporting solution for a startup.",

@@ -9,7 +9,7 @@
             <img class="badge variant-ringed-primary mt-3" src={image} alt={imageDescription}/>
         {/if}
     </header>
-    <div class="col-start-3 col-span-4 mt-1 lg:mt-2">
+    <div class="col-start-3 col-span-4 mt-1 my-2">
         <section class="p-4"> 
             <h1 class="text-lg text-primary-500">
                 { bodyHeader }

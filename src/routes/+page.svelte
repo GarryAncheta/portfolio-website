@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
     import { getModeAutoPrefers, modeCurrent } from "@skeletonlabs/skeleton";
     import Body from "./components/Body.svelte";
     import Header from "./components/Header.svelte";
@@ -8,7 +10,7 @@
     const changeColor = () => {
 
         if( $modeCurrent ) {
-            return"#60d7ab";
+            return "#60d7ab";
         }
 
         return "#1d7655";
