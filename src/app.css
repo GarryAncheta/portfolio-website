@@ -7,7 +7,7 @@
 	/* Reference name */
 	font-family: 'RedditMono';
 	/* For multiple files use commas, ex: url(), url(), ... */
-	src: url('./src/lib/assets/RedditMono-VariableFont_wght.ttf');
+	src: url('../src/lib/assets/RedditMono-VariableFont_wght.ttf');
     font-display: swap;
 }
 
