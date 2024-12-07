@@ -2,7 +2,7 @@
     import ExpCard from "../../components/ExpCard.svelte";
     import LinkedText from "../../components/LinkedText.svelte";
     import ProjCard from "../../components/ProjCard.svelte";
-    import NOBL from "$lib/assets/nobl.png";
+    import image from "$lib/assets/nobl.png";
 
     interface cardContent {
         timeRange: string;
@@ -32,7 +32,7 @@
     const projects : Array<any> = [
         {
             link: "https://www.ceias.nau.edu/capstone/projects/CS/2022/TruthSeeker/index.html",
-            image: "./src/lib/assets/nobl.png",
+            image: image,
             imageDescription: "NOBL Web Application Preview",
             bodyTitle: "NOBL",
             bodyContent: "Led a team of 4 in developing a high-performance data visualization platform as my Computer Science capstone project.  Successfully delivered a web application and API with sub-250 millisecond rendering of 50,000 data points using ECharts, providing a critical reporting solution for a startup.",
