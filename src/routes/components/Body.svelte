@@ -2,6 +2,7 @@
     import ExpCard from "../../components/ExpCard.svelte";
     import LinkedText from "../../components/LinkedText.svelte";
     import ProjCard from "../../components/ProjCard.svelte";
+    import NOBL from "$lib/assets/nobl.png";
 
     interface cardContent {
         timeRange: string;
@@ -31,7 +32,7 @@
     const projects : Array<any> = [
         {
             link: "https://www.ceias.nau.edu/capstone/projects/CS/2022/TruthSeeker/index.html",
-            image: "../src/assets/nobl.png",
+            image: "./src/lib/assets/nobl.png",
             imageDescription: "NOBL Web Application Preview",
             bodyTitle: "NOBL",
             bodyContent: "Led a team of 4 in developing a high-performance data visualization platform as my Computer Science capstone project.  Successfully delivered a web application and API with sub-250 millisecond rendering of 50,000 data points using ECharts, providing a critical reporting solution for a startup.",
@@ -99,7 +100,7 @@
             {/each}
         </div>
     </section>
-    <footer class="mt-24 text-sm text-surface-300">
+    <footer class="mt-24 text-sm text-surface-500 dark:text-surface-200">
         <p>Coded in 
             <LinkedText 
                 content={"Visual Studio Code"}
@@ -116,8 +117,7 @@
                 content={"Tailwind CSS"}
                 ariaLabel={"Link to Tailwind CSS"}
                 link={"https://tailwindcss.com/"}
-            />
-            . Deployed and hosted with
+            />. Deployed and hosted with
             <LinkedText
                 content={"Azure"}
                 ariaLabel={"Link to Azure"}
