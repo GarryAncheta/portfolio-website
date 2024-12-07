@@ -1,5 +1,4 @@
 <script lang="ts">
-    import Icon from "@iconify/svelte";
 
     const { 
             timeRange = "July 2022 - Present", 
