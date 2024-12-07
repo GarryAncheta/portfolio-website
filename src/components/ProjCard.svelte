@@ -3,7 +3,7 @@
     const { image = null, imageDescription = "", bodyHeader, bodyContent, footer, link = "./" } = $props();
 </script>
 
-<a href={link} target="_blank" class="group lg:card grid grid-cols-6 col-auto lg:card-hover lg:variant-soft bg-transparent lg:bg-transparent hover:variant-glass-primary dark:bg-transparent dark:hover:variant-glass-primary" aria-label="Experience">
+<a href={link} target="_blank" class="group lg:card grid grid-cols-6 col-auto lg:card-hover lg:variant-soft bg-transparent lg:bg-transparent hover:variant-glass-primary dark:bg-transparent dark:hover:variant-glass-surface" aria-label="Experience">
     <header class="lg:card-header text-sm col-start-1 col-span-2 lg:mt-3">
         {#if !image.isNull }
             <img class="badge variant-ringed-primary mt-3" src={image} alt={imageDescription}/>

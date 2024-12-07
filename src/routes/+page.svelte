@@ -18,7 +18,7 @@
 
 {#key $modeCurrent}
     <FlickeringGrid 
-        class="fixed mx-auto min-w-screen min-h-screen h-screen w-screen -z-10" 
+        class="fixed min-w-screen min-h-screen -z-10" 
         maxOpacity={0.5}
         flickerChance={0.05} 
         squareSize={2}
@@ -26,7 +26,7 @@
         color={ changeColor() }
     />
 {/key}
-<div class="mx-auto min-h-screen min-w-screen-xl md:px-16 px-6 py-12 lg:px-24 lg:py-0 top-0">
+<div class="mx-auto min-h-screen max-w-screen-xl top-0 px-6 py-12 md:px-16 lg:px-32 lg:py-0 ">
     <div class="lg:flex lg:gap-4 justify-between">
         <Header/>
         <Body />
